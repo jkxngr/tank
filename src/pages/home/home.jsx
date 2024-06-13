@@ -47,8 +47,8 @@ export const Home = () => {
         </div>
       </div>
       <div className="container ">
-        <div className="flex gap-24 bg-charlestoneGreen py-5 px-10 mt-5 justify-center rounded-[10px]">
-          <p className="text-[30px] font-medium text-white uppercase max-w-[318px]">
+        <div className="flex gap-24 bg-charlestoneGreen py-5 mt-5 justify-center rounded-[10px]">
+          <p className="text-[30px] font-medium text-white uppercase max-w-[318px] pl-12">
             Срок действия спецпредложения:
           </p>
           <div className="flex items-center justify-center space-x-4">
@@ -73,7 +73,7 @@ export const Home = () => {
               <span>секунд</span>
             </div>
           </div>
-          <div className="my-auto">
+          <div className="my-auto pr-12">
             <Button variant="primary" rightIcon={<RightIcon />}>
               Узнать цену с выгодами
             </Button>
